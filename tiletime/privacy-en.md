@@ -37,12 +37,26 @@ The App requests photo library access **only to let you choose images as visual 
 ## 4. Third-party services
 
 ### Android version
-The Android version uses **Google Firebase Analytics** to collect anonymous app usage statistics (such as: launch count, crash reports, device model, OS version) to improve app quality. Firebase does not collect your name, email, or any other personally identifiable information.
+The Android version uses **Google Firebase Analytics** only to collect **anonymous crash and stability data** to detect and fix bugs and improve app quality. Specifically, it collects:
+
+- Crash events (with non-personal error summaries)
+- App version, OS version, device model
+- Country and language settings
+- Built-in technical events such as app open and session start
+
+**The app explicitly disables the following Firebase defaults:**
+
+- ❌ Android Advertising ID (AAID / SSAID) collection
+- ❌ Ad personalization signals
+- ❌ Ad user data transmission
+- ❌ Google Signals cross-device demographic inference
+
+Firebase does not collect your name, email, or any other personally identifiable information, and the data is not used for advertising.
 
 For details, see the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ### iOS version
-The iOS version uses **no third-party analytics or tracking services**. All your data stays on the device.
+The iOS version uses **no third-party analytics, tracking, or crash reporting services**. All your data stays on the device.
 
 ## 5. Data retention and deletion
 

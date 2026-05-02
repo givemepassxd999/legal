@@ -37,12 +37,26 @@
 ## 4. 第三方服務
 
 ### Android 版本
-本應用程式 Android 版本使用 **Google Firebase Analytics** 收集匿名的應用程式使用統計資料（如：開啟次數、崩潰報告、裝置型號、作業系統版本），用於改善應用程式品質。Firebase 不會收集您的姓名、email 或其他個人身分資訊。
+本應用程式 Android 版本使用 **Google Firebase Analytics** 僅收集**匿名的崩潰與穩定性資料**，用於發現並修復程式錯誤、改善應用程式品質。具體收集範圍：
+
+- 崩潰事件（含非個人化的錯誤摘要）
+- 應用程式版本、作業系統版本、裝置型號
+- 國家、語言設定
+- App 開啟與 Session 起始等內建技術事件
+
+**本應用程式已主動關閉以下 Firebase 預設行為**：
+
+- ❌ 不收集 Android 廣告 ID（AAID / SSAID）
+- ❌ 不啟用廣告個人化訊號（Ad Personalization Signals）
+- ❌ 不傳送廣告使用者資料（Ad User Data）
+- ❌ 不啟用 Google Signals 跨裝置人口統計推估
+
+Firebase 不會收集您的姓名、email 或其他個人身分資訊，亦不會用於投放廣告。
 
 詳情請參閱 [Google 隱私權政策](https://policies.google.com/privacy)。
 
 ### iOS 版本
-本應用程式 iOS 版本**不使用任何第三方分析或追蹤服務**，您的所有資料皆僅存於本機。
+本應用程式 iOS 版本**不使用任何第三方分析、追蹤或崩潰回報服務**，您的所有資料皆僅存於本機。
 
 ## 5. 資料保留與刪除
 
