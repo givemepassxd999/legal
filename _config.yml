@@ -1,9 +1,13 @@
-title: Legal
-description: Privacy policies and terms of service for apps by rick (givemepassxd999)
+title: 法律條款 / Legal
+description: Privacy policies and terms of service for our published apps.
 theme: jekyll-theme-cayman
 
-# Show GitHub edit link
+# Hide the "View on GitHub" button that the Cayman theme adds
+# by default — we don't want the source repo exposed to readers
+# of the privacy policy.
 show_downloads: false
+github:
+  is_project_page: false
 
 # Markdown processor
 markdown: kramdown
