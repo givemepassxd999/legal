@@ -3,7 +3,7 @@
 **Last updated: May 2, 2026**
 **Effective date: May 2, 2026**
 
-TileTime (the "App") is independently developed and maintained by **rick** (givemepassxd999@gmail.com). This policy describes how the App handles your data. Please read it carefully before using the App.
+TileTime (the "App") is independently developed and maintained. This policy describes how the App handles your data. Please read it carefully before using the App.
 
 ---
 
@@ -88,4 +88,4 @@ This policy may be updated as App functionality evolves. For significant changes
 
 For any questions or feedback regarding this privacy policy:
 
-**givemepassxd999@gmail.com**
+**givemepassxd1000@gmail.com**

@@ -3,7 +3,7 @@
 **Last updated: May 2, 2026**
 **Effective date: May 2, 2026**
 
-Welcome to TileTime (the "App"). These Terms of Service (the "Terms") form a legal agreement between you and the App's developer, **rick** (givemepassxd999@gmail.com, the "we"/"us"). **By downloading, installing, or using the App, you acknowledge that you have read, understood, and agreed to these Terms.** If you do not agree, please do not use the App.
+Welcome to TileTime (the "App"). These Terms of Service (the "Terms") form a legal agreement between you and the App's developer (the "we"/"us"). **By downloading, installing, or using the App, you acknowledge that you have read, understood, and agreed to these Terms.** If you do not agree, please do not use the App.
 
 ---
 
@@ -68,4 +68,4 @@ These Terms are governed by the laws of **Taiwan (R.O.C.)**. Any dispute shall b
 
 For any questions about these Terms:
 
-**givemepassxd999@gmail.com**
+**givemepassxd1000@gmail.com**
