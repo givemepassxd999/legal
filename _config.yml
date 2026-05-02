@@ -1,0 +1,12 @@
+title: Legal
+description: Privacy policies and terms of service for apps by rick (givemepassxd999)
+theme: jekyll-theme-cayman
+
+# Show GitHub edit link
+show_downloads: false
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
